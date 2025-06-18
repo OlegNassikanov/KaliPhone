@@ -104,6 +104,29 @@ Inspired by freedom, minimalism, and the old-school hacker spirit.
 
 ---
 
+## 🌐 Mesh Networking (Experimental Concept)
+
+KaliPhone devices can form peer-to-peer mesh networks for **offline, decentralized communication**, even when no internet or GSM is available.
+
+| Technology        | Use Case                                |
+|-------------------|------------------------------------------|
+| 📡 WiFi Direct / ad-hoc | Local file transfer, broadcast messaging     |
+| 📶 ESP32 + LoRa   | Long-range, low-bandwidth messaging       |
+| 📲 ESP-NOW        | Ultra-fast short packets (ESP32-only)     |
+| 🔄 Mesh Routing   | Basic P2P relaying, hop-to-hop messaging  |
+
+**Possible scenarios:**
+
+- 💬 Text chats between nearby devices
+- 🆘 Emergency signaling without infrastructure
+- 🛰 Offline file drops (e.g. PDFs, QR-codes, scripts)
+- 📡 Radio silence relay mode via LoRa
+
+> ❗ *Note: Mesh features require manual setup and firmware customization.*
+
+---
+
+
 ## 🔗 Repository
 
 [👉 GitHub – KaliPhone](https://github.com/OlegNassikanov/KaliPhone)
