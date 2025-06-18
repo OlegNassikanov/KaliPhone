@@ -58,3 +58,52 @@ MIT — do whatever you want, but share improvements if you can.
 
 **Oleg Nassikanov**  
 Inspired by freedom, minimalism, and the old-school hacker spirit.
+# 📱 KaliPhone: Minimalist Linux Device Inspired by Kali
+
+**KaliPhone** is a privacy-focused, Linux-based pocket device for calls, communication, and network testing — fully under your control. Built from real, available parts and free of corporate telemetry.
+
+---
+
+## 🧱 Hardware (Modular & Accessible)
+
+| Component                           | Description                                           |
+|------------------------------------|-------------------------------------------------------|
+| 📦 Pi Zero 2 W / Radxa Zero / Odroid Go Ultra | Compact ARM SBCs, Linux-compatible          |
+| 📶 SIM7600 / EC25 / Quectel Modem  | GSM/3G/4G voice, SMS, and data                       |
+| 📺 1.8" TFT or OLED Display        | Ultra-low-power screen                               |
+| 🎙️ I2S Microphone + Speaker       | Audio interface                                       |
+| 🔋 Li-Ion Battery + TP4056        | Power management & charging                          |
+| 🔌 ESP32 (UART/I2C)                | Power-saving coprocessor, BLE, sensors               |
+| ⌨️ Button matrix or touchscreen    | User input                                            |
+
+---
+
+## 💻 Software Environment
+
+| Component                     | Purpose                                                |
+|------------------------------|--------------------------------------------------------|
+| 🐧 Kali ARM Mini / Debian Minimal | Lightweight Linux base                           |
+| 🛡️ iptables + AppArmor        | Traffic filtering and process isolation              |
+| 🕵️ Wireshark / tcpdump / aircrack-ng | Network sniffing and auditing tools         |
+| 📶 ModemManager + NetworkManager | Mobile connectivity management                   |
+| 📞 Linphone CLI / SIP tools  | Secure VoIP calls via SIP                           |
+| 📩 Signal CLI / Matrix / NeoMutt | Encrypted messaging from terminal               |
+| 🔍 nmap / hydra / metasploit  | Penetration testing & reconnaissance                |
+
+---
+
+## 🧠 Key Features
+
+- 🔐 Full **root access**, complete system control
+- 🚫 **No Google, no telemetry, no app store**
+- 📴 Works **offline** in air-gapped environments
+- 📡 Use as **WiFi sniffer**, BLE scanner, or GPS tracker
+- 🔒 Includes **VPN**, **TOR**, and **Onion routing**
+- ⚙️ Launch only whitelisted binaries, filter all traffic
+- 🔍 Auto-detect **BLE beacons**, rogue WiFi, and signal leaks
+
+---
+
+## 🔗 Repository
+
+[👉 GitHub – KaliPhone](https://github.com/OlegNassikanov/KaliPhone)
