@@ -1,14 +1,60 @@
-# KaliPhone
+# 📱 KaliPhone
 
-**KaliPhone** is an idea for a mobile device powered by Linux, with full control for the user.  
-No ads. No spying. Only tools for freedom and learning.
+**KaliPhone** is a concept for a minimalist phone system built on Linux and ESP32, designed to prioritize privacy, simplicity, and user control.
 
-## Goals
+No ads.  
+No tracking.  
+No bloat.  
+Only tools for freedom, hacking, and learning.
 
-- Run Kali Linux (ARM version or NetHunter)
-- Work on ESP32 or Raspberry Pi
-- Have physical switches to turn off camera, mic, modem
-- Be small, pocket-sized
-- Be fully open-source
+---
 
-This is a DIY project for hackers, makers, and people who love freedom.
+## 🎯 Goals
+
+- Build a phone OS based on Linux with CLI-first interface
+- Use ESP32 as core controller or modem link
+- Full transparency and auditability
+- Educational value for cybersecurity and electronics
+
+---
+
+## 🧩 Components
+
+- 🐧 Minimal Linux distro (e.g. Alpine, Kali NetHunter, TinyCore)
+- 📶 ESP32 (WiFi/BLE + MCU + serial interface)
+- 🔋 Power management (Li-ion + charging board)
+- 🖥️ Display module (e-paper / LCD optional)
+- 🧠 CLI apps only, no GUI bloat
+
+See [`components.md`](./components.md)
+
+---
+
+## 🛠 Setup
+
+Setup and build guide in [`kali_setup.md`](./kali_setup.md)
+
+---
+
+## 🔧 Tools
+
+Essential tools and command-line utilities are listed in [`tools.md`](./tools.md)
+
+---
+
+## 🌌 Vision
+
+See the broader vision and purpose behind the project in [`vision.md`](./vision.md)
+
+---
+
+## 📄 License
+
+MIT — do whatever you want, but share improvements if you can.
+
+---
+
+## 👤 Author
+
+**Oleg Nassikanov**  
+Inspired by freedom, minimalism, and the old-school hacker spirit.
